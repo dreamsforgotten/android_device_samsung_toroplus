@@ -46,15 +46,6 @@
         <item>"mobile_cbs,12,0,2,60000,true"</item>
     </string-array>
 
-    <!-- Array of ConnectivityManager.TYPE_xxxx values allowable for tethering -->
-    <!-- Common options are [1, 4] for TYPE_WIFI and TYPE_MOBILE_DUN or
-    <!== [0,1,5,7] for TYPE_MOBILE, TYPE_WIFI, TYPE_MOBILE_HIPRI and TYPE_BLUETOOTH -->
-    <integer-array translatable="false" name="config_tether_upstream_types">
-        <item>1</item>
-        <item>4</item>
-        <item>7</item>
-    </integer-array>
-
     <!-- If the DUN connection for this CDMA device supports more than just DUN -->
     <!-- traffic you should list them here. -->
     <!-- If this device is not CDMA this is ignored.  If this list is empty on -->
@@ -75,6 +66,13 @@
     <!-- The mms content disposition field is supported correctly. if it is true
          If false, some fields of content disposition do not follow wap-230-wsp-20010705-a.rdf -->
     <bool name="config_mms_content_disposition_support">false</bool>
+
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+                <!-- The standard AOSP fused location provider -->
+                <item>com.android.location.fused</item>
+                <!-- The Google Network Location Services location provider -->
+                <item>com.google.android.location</item>
+    </string-array>
 
     <!-- If this value is true, duplicate Source/Destination port fields
          in WDP header of some carriers OMADM wap push are supported.

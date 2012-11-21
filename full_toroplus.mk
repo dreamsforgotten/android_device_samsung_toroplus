@@ -32,8 +32,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/toroplus/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_toroplus
+PRODUCT_NAME := mysidspr
 PRODUCT_DEVICE := toroplus
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := Full AOSP on Toroplus
+PRODUCT_BRAND := google
+PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_RESTRICT_VENDOR_FILES := true
+BUILD_ID := JOP40C
+BUILD_DISPLAY := JOP40C.L700FH05
+BUILD_VERSION_INCREMENTAL := L700FH05
+BUILD_DESCRIPTION := mysidspr-user 4.1.1 JRO03U L700FH05 release-keys
+BUILD_FINGERPRINT := google/mysidspr/toroplus:4.1.1/JRO03U/L700FH05:user/release-keys
+
+
+

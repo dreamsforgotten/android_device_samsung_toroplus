@@ -24,4 +24,5 @@
     <string name="roamingText0">Digital Roaming</string>
     <string name="roamingText1">Sprint</string>
     <string name="roamingText2">Digital Roaming</string>
+    <string name="def_backup_transport" translatable="false">com.google.android.backup/.BackupTransportService</string>
 </resources>

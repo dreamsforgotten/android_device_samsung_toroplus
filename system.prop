@@ -2,7 +2,7 @@
 # system.prop for toroplus
 #
 
-rild.libpath=/vendor/lib/libsec-ril.so
+rild.libpath=/vendor/lib/libsec-ril_lte.so
 rild.libargs=-d /dev/ttys0
 telephony.lteOnCdmaDevice=1
 
