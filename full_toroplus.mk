@@ -32,7 +32,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/toroplus/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := mysidspr
+PRODUCT_NAME := full_toroplus
 PRODUCT_DEVICE := toroplus
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Galaxy Nexus
